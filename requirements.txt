@@ -1,0 +1,102 @@
+# Core dependencies for Parking Space Detection System
+
+# Computer Vision
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# Machine Learning
+scikit-learn==1.3.0
+numpy==1.24.3
+
+# Data Processing
+pandas==2.0.3
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Progress bars
+tqdm==4.65.0
+
+# XML processing (included in Python standard library)
+# xml.etree.ElementTree
+
+# System utilities
+argparse  # Built-in module
+logging   # Built-in module
+pickle    # Built-in module
+threading # Built-in module
+queue     # Built-in module
+time      # Built-in module
+os        # Built-in module
+
+# Type hints (Python 3.7+)
+typing    # Built-in module
+
+# Optional: For better performance and additional features
+# Uncomment if needed
+
+# Enhanced image processing
+# Pillow==10.0.0
+
+# Faster numerical operations
+# scipy==1.11.1
+
+# GPU acceleration (if available)
+# opencv-python-headless==4.8.1.78  # Use instead of opencv-python for headless servers
+
+# Deep learning (optional, for future CNN implementation)
+# tensorflow==2.13.0
+# torch==2.0.1
+# torchvision==0.15.2
+
+# Advanced data manipulation
+# h5py==3.9.0
+
+# Configuration management
+# pyyaml==6.0.1
+# configparser  # Built-in module
+
+# Testing (for development)
+# pytest==7.4.0
+# pytest-cov==4.1.0
+
+# Code quality (for development)
+# flake8==6.0.0
+# black==23.7.0
+# isort==5.12.0
+
+# Documentation (for development)
+# sphinx==7.1.2
+# sphinx-rtd-theme==1.3.0
+
+# Jupyter notebooks (for experimentation)
+# jupyter==1.0.0
+# ipykernel==6.25.0
+
+# Memory profiling (for optimization)
+# memory-profiler==0.61.0
+# psutil==5.9.5
+
+# Parallel processing
+# joblib==1.3.2
+
+# Alternative machine learning libraries
+# xgboost==1.7.6
+# lightgbm==4.0.0
+
+# Video processing (if working with video files)
+# imageio==2.31.1
+# imageio-ffmpeg==0.4.8
+
+# Database support (for storing results)
+# sqlite3  # Built-in module
+# sqlalchemy==2.0.19
+
+# API development (if creating web interface)
+# flask==2.3.2
+# fastapi==0.101.1
+# uvicorn==0.23.2
+
+# Environment management
+# python-dotenv==1.0.0
